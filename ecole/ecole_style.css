@@ -1,0 +1,148 @@
+body{
+	Color: black;
+	background-color:#e1d2b8;
+    display: flex;
+    flex-direction: column;
+}
+#menu-entete{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color:rgb(224, 158, 96);
+    position: sticky;
+    top: 0;
+
+}
+
+#menu-entete div{
+    background-color: #e1d2b8;
+    display: inline-block;
+}
+
+.menu_list{
+    display: inline;
+    background-color: rgb(231, 252, 252);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu_list a, .menu_list {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+
+}
+
+.menu_list a, .menu_list div{
+    cursor: pointer;
+}
+
+#listDrop{
+    height: 100px;
+
+}
+
+#listDrop li{
+    background-color:#e1d2b8;
+    margin:  10px 0px;
+    width: 150px;
+    position: relative;
+    left: -32px;
+    border-radius: 3px;
+}
+
+#listDrop li a{
+    text-align: center;
+    color: orangered;
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+} 
+
+.affich{
+    z-index: 12;
+    display: block;
+    position: absolute;
+    background-color:#e2bc74;
+    width: 125px;
+    list-style: none;
+}
+
+.cache{
+    display: none;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #0000;
+    width: 100%;
+    background:#f1f1f1;
+    color:#333;
+
+}
+.contenue-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+
+}
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* contact */
+.footer-lien h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-media h3{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.footer-lien p {
+    padding: 5px 0;
+}
+/* services */
+.liste-lien,
+.liste-horaires,
+.liste-media{
+    list-style-type: none;
+
+}
+.liste-lien li {
+    padding: 2px 0;
+}
+.liste-lien a {
+    text-decoration: none;
+    color:#333;
+}
+.liste-lien a:hover{
+    color:#333
+}
+.liste-media i{
+text-decoration: none;
+color: rgb(38, 0, 255);
+display: flex;
+align-items: center;
+font-size: 25px;
+
+}
+#entete {
+    font-size: 50px;
+    text-align: center;
+    
+}
+#entete figure{
+    display: block;
+    margin: auto;
+}

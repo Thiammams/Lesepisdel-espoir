@@ -1,0 +1,16 @@
+body{
+	Color: rgb(110, 102, 102);
+	background-color:#e1d2b8;
+  
+ 
+}
+#menu-entete{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color:rgb(224, 158, 96);
+    position: sticky;
+    top: 0;
+
+}
